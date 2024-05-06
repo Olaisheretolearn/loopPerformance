@@ -4,7 +4,7 @@ public class loopPerformance {
 	}
 	
 	public static void testTwoLoops(long upperBound){
-		long startingNumber= 0;
+		long startingNumber= 0; // starting loop from 0
 		long start = System.nanoTime();
 		for(long i=1; i<= upperBound; i++){
 			startingNumber=i;
